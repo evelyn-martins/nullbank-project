@@ -225,6 +225,155 @@ header {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
+.cards-info-container{
+    display: flex;
+    justify-content: center;
+    padding: 100px 100px;
+}
+
+.card-info1 h2{
+    color:#6729FF;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+#exclusive-benefits{
+    color: #475569;
+    font-family: "Outfit", sans-serif;
+    font-size: 40px;
+}
+
+.highlight{
+    color: #6729FF;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.card-info1 p{
+    color: #64748B;
+}
+
+.btn-more-info{
+    padding-top: 24px;
+    width: 225px;
+}
+
+.btn-more-info a{
+    text-decoration: none;
+    color: #6729FF;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-more-info img{
+    padding-left: 12px;
+}
+
+.btn-more-info a:hover{
+    background-color: #EEE5FF;
+    border-radius: 8px;
+}
+
+.card-info2{
+    margin-left: 71px;
+}
+
+.info-container{
+    display: flex;
+}
+
+.info-container2{
+    display: flex;
+}
+
+.info-box{
+    border: 1px solid #E2E8F0;
+    padding: 20px 20px 38px 22px;
+    border-radius: 8px;
+    width: 382px;
+    height: 160px;
+    margin: 0 16px 16px 0;
+}
+
+.title-box{
+    display: flex;
+    align-items: center;
+}
+
+.title-box h3{
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #6729FF;
+    padding-left: 16px;
+}
+
+.title-box img{
+    background-color: #EEE5FF;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.text-box p{
+    color: #64748B;
+    padding-top: 16px;
+    font-size: 14px;
+}
+
+.info-box2{
+    border: 1px solid #E2E8F0;
+    padding: 20px 20px 38px 22px;
+    border-radius: 8px;
+    width: 330px;
+    height: 160px;
+}
+
+.info-box3{
+    border: 1px solid #E2E8F0;
+    padding: 20px 20px 38px 22px;
+    border-radius: 8px;
+    width: 317px;
+    height: 160px;
+    margin: 0 16px 16px 0;
+}
+
+.info-box4{
+    border: 1px solid #E2E8F0;
+    padding: 20px 20px 38px 22px;
+    border-radius: 8px;
+    width: 395px;
+    height: 160px;
+}
+
+.info-box5{
+    padding: 20px 20px 38px 22px;
+    border-radius: 8px;
+    width: 728px;
+    height: 160px;
+    background-color: #F3F2FF;
+    position: relative;
+}
+
+.info-box5 .title-box img{
+    background-color: #FFFFFF;
+}
+
+.info-box5 .text-box{
+    width: 344px;
+}
+
+#rectangle-white{
+    position: absolute;
+    bottom: 0;
+    left: 410px;
+}
+
+#rectangle-purple{
+    position: absolute;
+    bottom: 0;
+    left: 530px;
+}
+
 /* main end */
 
 /* footer start*/
