@@ -229,6 +229,8 @@ header {
     display: flex;
     justify-content: center;
     padding: 100px 100px;
+    height: 100%;
+    width: 100%;
 }
 
 .card-info1 h2{
@@ -372,6 +374,199 @@ header {
     position: absolute;
     bottom: 0;
     left: 530px;
+}
+
+.app-info-container{
+    display: flex;
+    margin: 0 100px 100px 100px;
+    position: relative;
+}
+
+.app-background{
+    background-color: #EEE5FF;
+    width: 592px;
+    height: 363px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    border-radius: 20px;
+}
+
+.app-img img{
+    position: relative;
+    left: 106px;
+    top: 28px;
+    z-index: 1;
+}
+
+.app-img{
+    flex: 1;
+}
+
+.app-text{
+    flex: 1;
+    padding-top: 30px;
+    width: 624px;
+    height: 637px;
+}
+
+.app-text h2{
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #6729FF;
+}
+
+#app-description{
+    color: #475569;
+    font-size: 40px;
+    font-family: "Outfit", sans-serif;
+    padding: 8px 0 16px 0;
+}
+
+.app-text p{
+    color: #64748B;
+}
+
+.app-text-box p{
+    color: #64748B;
+    padding: 4px 0 0 16px;
+}
+
+.app-text-box{
+    padding-top: 32px;
+    display: flex;
+}
+
+.app-text-box img{
+    background-color: #6729FF;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.app-title-box h2{
+    color: #6729FF;
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 16px;
+}
+
+.app-text-boxes{
+    padding-top: 64px;
+}
+
+.download-info-container{
+    display: flex;
+    background-color: #6729FF;
+    height: 534px;
+}
+
+.download-text{
+    flex: 1;
+    padding: 100px 100px;
+    width: 704px;
+}
+
+.download-text h2{
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+#download-description{
+    color: #F8FAFC;
+    font-family: "Outfit", sans-serif;
+    font-size: 40px;
+    margin: 8px 0 16px 0;
+}
+
+.download-text p{
+    color: #E2E8F0;
+}
+
+.btn-download{
+    padding-top: 48px;
+    display: flex;
+}
+
+.btn-download a{
+    background-color: #F3F2FF;
+    padding: 12px 30px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    border-radius: 8px;
+    color: #6729FF;
+    margin-right: 26px;
+}
+
+.btn-download img{
+    padding-right: 12px;
+}
+
+.download-img{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#img-app2{
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+#img-app3{
+    z-index: 0;
+    bottom: 0;
+    right: 85px;
+    position: absolute;
+}
+
+.signup-banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 496px;
+}
+
+.signup-banner img{
+    width: 100%;
+    height: 496px;
+    position: absolute;
+    z-index: 0;
+}
+
+.signup-banner h2{
+    font-family: "Outfit", sans-serif;
+    font-size: 96px;
+    color: #FFFFFF;
+    position: relative;
+    top: auto;
+    z-index: 1;
+}
+
+.signup-banner a{
+    position: relative;
+    top: auto;
+    z-index: 1;
+    background-color: #6729FF;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 8px 32px;
+    border-radius: 8px;
+}
+
+.signup-banner a:hover{
+    background-color: #FFFFFF;
+    color: #6729FF;
 }
 
 /* main end */
