@@ -6,12 +6,17 @@
     font-weight: 500;
     font-size: 16px;
 }
+
 /* header start */
 header {
     display: flex;
     padding: 16px 64px;
     border-bottom: 1px solid #E2E8F0;
     width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: #FFFFFF;
+    z-index: 2;
 }
 
 .nav-bar {
@@ -272,8 +277,7 @@ header {
 }
 
 .btn-more-info a:hover{
-    background-color: #EEE5FF;
-    border-radius: 8px;
+    transform: scale(1.05);
 }
 
 .card-info2{
@@ -422,10 +426,12 @@ header {
     font-size: 40px;
     font-family: "Outfit", sans-serif;
     padding: 8px 0 16px 0;
+    width: 416px;
 }
 
 .app-text p{
     color: #64748B;
+    width: 488px;
 }
 
 .app-text-box p{
@@ -453,7 +459,7 @@ header {
 }
 
 .app-text-boxes{
-    padding-top: 64px;
+    padding-top: 50px;
 }
 
 .download-info-container{
@@ -512,6 +518,10 @@ header {
     justify-content: center;
     align-items: center;
     position: relative;
+}
+
+.btn-download a:hover{
+    transform: scale(1.05);
 }
 
 #img-app2{
@@ -661,8 +671,7 @@ header {
 }
 
 .footer-social-links a:hover{
-    background-color: #6729FF;
-    border-radius: 20px;
+    transform: scale(1.2);
 }
 
 .footer-copyright{
@@ -678,6 +687,7 @@ header {
     font-size: 12px;
     color: #94A3B8;
     text-decoration: none;
+    padding-right: 25px;
 }
 .footer-copyright p{
     font-size: 12px;
@@ -685,7 +695,7 @@ header {
     text-decoration: none;
 }
 
-.footer-copyright h1{
+.footer-copyright h2{
     font-family: "Outfit", sans-serif;
     font-size: 24px;
     font-weight: bold;
@@ -695,4 +705,193 @@ header {
 .footer-copyright a:hover{
     color: #6729FF;
 }
+
 /* footer end */
+
+/* main contact start */
+
+.hero-container-contact{
+    display: flex;
+    width: 100%;
+    height: 340px;
+    background-color: #6729FF;
+    flex-direction: column;
+}
+
+.hero-contact-text{
+    padding: 60px 0 0 100px;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-container-contact h2{
+    width: 944px;
+    color: #FFFFFF;
+    font-family: "Outfit", sans-serif;
+    font-size: 64px;
+}
+
+.hero-container-contact p{
+    padding-top: 16px;
+    color: #F8FAFC;
+    width: 416px;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 100px 100px 100px;
+    height: 100%;
+    width: 100%;
+}
+
+.contact-phone, .contact-social-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 145px;
+    width: 1216px;
+    margin-top: 64px;
+    padding-bottom: 64px;
+    border-bottom: 1px solid #E2E8F0;
+}
+
+.phone-numbers, .social-links{
+    width: 380px;
+}
+
+.phone-info, .social-info{
+    display: flex;
+    width: 515px;
+}
+
+.phone-text, .social-text, .contact-form-text{
+    padding-left: 24px;
+}
+
+.phone-text h2, .social-text h2, .contact-form-text h2{
+    color: #475569;
+    font-family: "Outfit", sans-serif;
+    font-size: 32px;
+}
+
+.phone-text p, .social-text p, .contact-form-text{
+    color: #64748B;
+    font-size: 14px;
+    padding-top: 12px;
+    width: 500px;
+}
+
+.phone-numbers p{
+    color: #94A3B8;
+}
+
+.highlight-numbers{
+    color: #475569;
+}
+
+.social-links a{
+    padding-right: 24px;
+}
+
+.social-links a img {
+    width: 24px;
+    height: 24px;
+}
+
+.social-links a:hover img {
+    transform: scale(1.2);
+}
+
+.contact-form-info{
+    display: flex;
+    width: 350px;
+}
+
+.contact-form{
+    width: 600px;
+    height: 518px;
+}
+
+.contact-form label{
+    color: #64748B;
+}
+
+.form-names input{
+    margin-top: 8px;
+    width: 281px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #E2E8F0;
+}
+
+.form-names{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-names, .form-email, .form-message{
+    margin-bottom: 20px;
+}
+
+.form-email input{
+    margin-top: 8px;
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #E2E8F0;
+}
+
+.form-message input{
+    margin-top: 8px;
+    width: 100%;
+    height: 278px;
+    border-radius: 8px;
+    border: 1px solid #E2E8F0;
+}
+
+.form-message ::placeholder, .form-email ::placeholder, .form-names ::placeholder{
+    font-size: 14px;
+    color: #94A3B8;
+    padding-left: 12px;
+}
+
+.form-btn button{
+    background-color: #6729FF;
+    width: 215px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.form-btn button:hover{
+    transform: scale(1.05);
+}
+
+.form-btn img{
+    width: 14px;
+    height: 14px;
+    margin-left: 12px;
+}
+
+.contact-form-container{
+    display: flex;
+    justify-content: space-around;
+    width: 1216px;
+    height: 600px;
+    margin: 80px 0 0 16px;
+}
+
+.form-btn{
+    display: flex;
+    justify-content: end;
+}
+
+/* main contact end */
