@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -81,8 +81,9 @@
                 <h2>Newsletter</h2>
                 <p>Receba novidades e dicas financeiras diretamente no seu email.</p>
                 <!-- form-container start -->
-                <form class="form-container">
+                <form class="form-container" onsubmit="return checkFormEmail()">
                     <input id="footer-email" type="email" placeholder="email@exemplo.com">
+                    <div id="error-footerEmail"></div>
                     <button type="submit"><img src="img/seta.svg" alt="seta"></button>
                 </form><!-- form-container end -->
                 <!-- footer-social-links start -->
@@ -105,6 +106,7 @@
             </div>
         </div><!-- footer-copyright end -->
     </footer>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

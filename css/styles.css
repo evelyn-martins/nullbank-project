@@ -858,6 +858,12 @@ header {
     padding-left: 12px;
 }
 
+.form-message input::placeholder {
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
 .form-btn button{
     background-color: #6729FF;
     width: 215px;
@@ -892,6 +898,11 @@ header {
 .form-btn{
     display: flex;
     justify-content: end;
+}
+
+#error-email, #error-firstName, #error-lastName, #error-message, #error-footerEmail{
+    color: red; 
+    margin-top: 10px;
 }
 
 /* main contact end */
