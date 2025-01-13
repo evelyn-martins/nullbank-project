@@ -33,7 +33,7 @@ git clone https://github.com/evelynmartins220/Desafio-01.git
 
 2. Navegue até a pasta do projeto: 
 ```
-cd NullBank
+cd Desafio-01
 ```
 
 3. Abra o arquivo index.html no seu navegador:
@@ -50,7 +50,7 @@ git clone https://github.com/evelynmartins220/Desafio-01.git
 
 2. Navegue até a pasta do projeto: 
 ```
-cd NullBank
+cd Desafio-01
 ```
 
 3. Abra o arquivo index.html no seu navegador.
